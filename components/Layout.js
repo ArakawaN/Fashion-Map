@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Layout({ children, title = "Default title" }) {
   return (
-    <div className="flex flex-col  min-h-screen text-white font-sans bg-gray-800">
+    <div className="flex flex-col  min-h-screen text-white font-sans bg-gray-300  ">
       <Head>
         <title>{title}</title>
       </Head>
@@ -10,7 +10,7 @@ export default function Layout({ children, title = "Default title" }) {
         {children}
       </main>
 
-      <footer className="w-full h-10 mt-5 flex justify-center items-feft text-gray-500 text-sm">
+      <footer className="w-full h-10 mt-5 flex justify-center items-end text-gray-500 text-sm  bottom-0 ">
         @Arakawa Naoya
       </footer>
     </div>

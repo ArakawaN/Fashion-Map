@@ -32,8 +32,6 @@ const Maps = () => {
   //   setMap(map);
   // };
 
-  // const onUnmount = useCallback(() => {}, []);
-
   // useEffect(() => {
   //   // console.log(currentPosition.lat);
   //   const position = getPosition();

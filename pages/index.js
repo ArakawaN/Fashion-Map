@@ -1,9 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { useState, useEffect } from "react";
-// ↓ CSR 用として初期化してあるものインポート
-import firebase from "../firebase/clientApp";
-import { doc, getDocs, serverTimestamp, setDoc } from "firebase/firestore";
+import { useState } from "react";
 import {
   getAuth,
   createUserWithEmailAndPassword,
